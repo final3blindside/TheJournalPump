@@ -1,4 +1,4 @@
-alert("Welcome to my portfolio, dear visitor!");
+//alert("Welcome to my portfolio, dear visitor!");
 var firstname = prompt("What is your first name?");
 
 if (firstname == "null") {
