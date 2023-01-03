@@ -15,40 +15,41 @@ body{
   padding: 0;
 }
 
+
+/* Navbar configuration, positioning, spacing */
 .site-header{
  background-color: black; 
  
  padding: 10px;
  margin:0px;
   
- /*Makes the navbar stick to top when scrolled*/
+  /*Makes the navbar stick to top when scrolled*/
  position: sticky;
  top:0;
 }
-
 .logo{
   width: 32px;
   display:inline;
 }
-
 .homepage{
   display: inline;
   font-family: 'Raleway', sans-serif;
+  
 }
-
 nav{
   color:white;
   font-family: 'Raleway', sans-serif;
 
   display:inline;
   text-align:center;
+  
 }
 
 
 
 /* Navbar links configuration */
 .homepage a:link, a:visited{
-  font-size: 40px;
+  font-size: 1.12em;
   color: white;
   text-decoration: none;
 }
@@ -62,7 +63,6 @@ nav a:link, a:visited {
   text-decoration: none;
   font-size: 25px;
 }
-
 nav a:hover {
   text-decoration: underline;
   text-decoration-color: rgb(0,255,255);
@@ -82,15 +82,41 @@ nav a:hover {
   text-decoration-thickness: 3px;
 }
 .body a:hover {
-  color: black;
+  color: rgb(0, 190, 200);
   text-decoration: underline;
   text-decoration-color: rgb(0,255,255);
   text-decoration-thickness: 5px;
+
+  background-color: ;
 }
 
 
+/* Body (Content configuration) */
+.body{
+  font-size: 1.25em;
+  text-align: justify;
+  line-height: 1.50em;
 
+  padding-left:20%;
+  padding-right:20%;
+}
 
+h1 {
+  font-family:'Raleway', sans-serif;
+}
+
+.subheader-statement{
+  font-size: 1.50em;
+}
+
+h2, h3 {
+  font-family:'Raleway', sans-serif;
+  margin-bottom: 0px;
+}
+
+p{
+  margin-top:0;
+}
 
 
 
