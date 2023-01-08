@@ -99,9 +99,9 @@ nav a:hover {
 
 /* Body (Content configuration) */
 .body{
-  font-size: 1.25em;
+  font-size: 1.50em;
   text-align: justify;
-  line-height: 1.50em;
+  line-height: 1.25em;
 
   padding-left:20%;
   padding-right:20%;
@@ -124,5 +124,18 @@ p{
   margin-top:0;
 }
 
+/* Contact Page Configuration */
+#contact-list-parent{
+  text-align: center;
+}
+#contact-list{
+  display:inline-block;
+  text-align: left;
+  font-weight:bold;
+}
 
+#contact-list img{
+  width:2em;
+ 
+}
 
