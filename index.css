@@ -124,6 +124,16 @@ p{
   margin-top:0;
 }
 
+
+#homepage-banner{
+  margin: 0;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  height: auto;
+  width: 100% ;
+}
+
 /* Contact Page Configuration */
 #contact-list-parent{
   text-align: center;
